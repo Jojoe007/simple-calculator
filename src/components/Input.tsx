@@ -24,8 +24,8 @@ const Input = forwardRef(({ }, ref: React.Ref<HTMLInputElement>) => {
     return (
         <div className="relative mt-2 rounded-md shadow-sm">
             <input
-                type='number'
-                className='block w-full rounded-md border-0 px-4 py-2 text-sm font-medium placeholder:text-gray-400 focus:ring-2 focus:outline-none focus:ring-blue-300 sm:text-sm sm:leading-6'
+                type='text'
+                className='block w-full rounded-md border-0 px-4 py-2 text-sm font-bold placeholder:text-gray-400 placeholder:font-bold focus:ring-2 focus:outline-none focus:ring-blue-700 sm:text-sm sm:leading-6'
                 placeholder='insert your number'
                 ref={ref}
             />
