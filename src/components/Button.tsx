@@ -1,13 +1,10 @@
 import React from 'react';
 type ButtonProps = {
     title: string;
-    icon?: ''
     callback: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ title, icon, callback }) => {
-
-
+const Button: React.FC<ButtonProps> = ({ title, callback }) => {
     return (
         <div className='relative mt-2 rounded-md shadow-sm w-full'>
             <button

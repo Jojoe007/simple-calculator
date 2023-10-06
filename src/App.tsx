@@ -47,13 +47,11 @@ function App() {
         }
     }
 
-    const now = Date.now();
-
     return (
         <div className='flex flex-col justify-center min-w-[320px] min-h-[100vh] place-items-center'>
             <div className='flex flex-col justify-start gap-2'>
             {/* https://tailwindcss.com/docs/customizing-colors */}
-            <div className='font-bold text-5xl text-center bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent'>
+            <div className='mb-4 font-bold text-5xl text-center bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent'>
                 Somple Calculator
             </div>
             <div className='px-4 py-2 font-bold text-sm text-white text-center rounded-md bg-blue-700 sm:text-sm sm:leading-6'>
